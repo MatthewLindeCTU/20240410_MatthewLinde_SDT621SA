@@ -78,6 +78,10 @@ namespace SectionC_Question1._1
 
                 tblMobilePhones.Items.RemoveAt(foundIndex);
             }
+
+            foundIndex = 0;
+            list.Clear();
+            foundList.Clear();
         }
     }
 }
